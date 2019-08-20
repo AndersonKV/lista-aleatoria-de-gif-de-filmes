@@ -1,0 +1,95 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: 
+	border-box; 
+	font-family: Roboto;
+	font-weight: bold;
+	color: #FFD152;
+}
+
+.section-top {
+      width: 100%;
+      height: 30vh;
+      overflow-y: hidden;
+      background: #343233;
+      text-align: center;
+}
+
+.section-down {
+      width: 100%;
+      height: 70vh;
+      overflow-y: hidden;
+      background: #585456;
+      text-align: center;
+}
+
+p {
+      margin: 20px 0;
+      color: #8D8273;
+      line-height: 24px;
+}
+
+button {
+      outline: none;
+      border: none;
+      margin: 18px 0;
+      padding: 20px 40px;
+      background: #FFD152;
+      font-family: Roboto;
+      color: #282627;
+      letter-spacing: 2px;
+      font-weight: 800;
+      text-transform: uppercase;
+      cursor: pointer;
+}
+
+.gif {
+	width: 684px;
+	height: 270px;
+}
+
+
+
+
+.filme {
+ 	 font-size: 1.8rem;
+ 	 margin-bottom: 0.5rem;
+  	margin-top: 0.5rem;
+}
+.diretor {
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.diretor:before {
+  content: "\2022";
+  margin-right: 10px;
+}
+
+
+.next {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #C0343D;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+.next:hover {
+  background: #94282f;
+}
+
+.next:active {
+  background: #802329;
+}
+
+.next:focus {
+  outline: 2px dotted #2B8EA5;
+}
+
+
